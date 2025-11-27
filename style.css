@@ -462,3 +462,10 @@ footer a { color:#fff; text-decoration:underline; }
 header {
   margin-top: 35px; /* moves header down so it doesn't overlap */
 }
+@media (max-width: 480px) {
+  .top-banner p {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+}
