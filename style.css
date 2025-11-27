@@ -83,7 +83,7 @@ img { display:block; max-width:100%; height:auto; }
   width:100%;
   background: var(--bg); /* white header so black logo shows */
   position: fixed;
-  top:10px;
+  top:20px;
   left:0;
   z-index:1200;
   box-shadow: 0 4px 14px rgba(0,0,0,0.06);
