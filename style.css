@@ -62,12 +62,28 @@ img { display:block; max-width:100%; height:auto; }
    Matches the HTML:
    <header class="header"> ... <div id="navToggle" class="nav-toggle"> ... <nav id="navMenu" class="nav-menu">
    ========================================================= */
+.top-banner {
+  width: 100%;
+  background: #0078ff;
+  color: white;
+  padding: 8px 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
 
 .header {
   width:100%;
   background: var(--bg); /* white header so black logo shows */
   position: fixed;
-  top:0;
+  top:35px;
   left:0;
   z-index:1200;
   box-shadow: 0 4px 14px rgba(0,0,0,0.06);
@@ -79,6 +95,10 @@ img { display:block; max-width:100%; height:auto; }
     justify-content: space-between; /* pushes hamburger to the right */
     padding: 14px 20px;
 }
+.page-offset {
+  padding-top: 121px;
+}
+
 
 
 /* inner layout */
