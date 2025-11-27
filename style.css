@@ -442,3 +442,23 @@ footer a { color:#fff; text-decoration:underline; }
 /* =========================================================
    END OF STYLESHEET
    ========================================================= */
+.top-banner {
+  width: 100%;
+  background: #0078ff;
+  color: white;
+  padding: 8px 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+
+header {
+  margin-top: 35px; /* moves header down so it doesn't overlap */
+}
