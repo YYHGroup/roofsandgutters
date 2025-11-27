@@ -480,6 +480,9 @@ footer a { color:#fff; text-decoration:underline; }
   left: 0;
   z-index: 2000;
 }
+header {
+  margin-top: 35px;
+}
 
 
 @media (max-width: 480px) {
