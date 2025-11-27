@@ -94,6 +94,8 @@ img { display:block; max-width:100%; height:auto; }
   height:70px;
   width:auto;
   display:block;
+  transform: scale(1.25);          /* make logo bigger */
+  transform-origin: left center;   /* keeps alignment clean */
 }
 
 /* desktop nav */
